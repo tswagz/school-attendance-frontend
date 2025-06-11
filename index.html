@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>School Attendance System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>School Attendance System</h1>
+    </header>
+
+    <section class="class-select">
+      <label for="class-select">Select Class:</label>
+      <select id="class-select">
+        <option value="1">Class 1</option>
+        <option value="2">Class 2</option>
+      </select>
+    </section>
+
+    <section id="student-list" class="student-list">
+      <!-- Dynamic list of students will be inserted here -->
+    </section>
+
+    <section class="controls">
+      <button id="submit-btn">Submit Attendance</button>
+      <button id="reset-btn" class="secondary">Reset</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
